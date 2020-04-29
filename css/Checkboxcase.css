@@ -5,9 +5,9 @@
     border-radius: 8px 8px 8px 8px;
     -moz-border-radius: 8px 8px 8px 8px;
     -webkit-border-radius: 8px 8px 8px 8px;
-    
+
 }
- 
+
 
 .cuadro:hover  {
     border-radius: 8px 8px 8px 8px;
@@ -39,7 +39,7 @@
     -moz-box-shadow: 0px 0px 23px 7px rgba(212,212,212,1);
     box-shadow: 0px 0px 23px 7px rgba(212,212,212,1);
   color: #28a745 !important;
-   
+
 }
 
 .visually-hidden   {
@@ -47,8 +47,8 @@
     left: -100vw;
 }
 
- 
- 
+
+
 
 /*switch*/
 
@@ -146,9 +146,3 @@
 }
 
 /*switch*/
-
-
-
-
-
-

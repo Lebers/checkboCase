@@ -1,52 +1,56 @@
-<div class="container    ">
-  <div class="row border rounded">
-    <div class="col-12  mb-2  ">
-      Informacion del GPS:
-  	</div>
-    
-    <div class="col-4 "  >
-      <input type="radio" id="checks1" name="gps" class="visually-hidden ">
-      <label class="  l-h1  " for="checks1">
-        <div class="   pt-1 pb-1 cuadro">
-          <h6><strong>Opcion 1</strong></h6>
-          <span>SI</span>
-        </div>
-      </label>
-    </div>
-    
-    <div class="col-4 "  >
-      <input type="radio" id="checks2" name="gps" class="visually-hidden ">
-      <label class="  l-h2  " for="checks2">
-        <div class="   pt-1 pb-1 cuadro">
-          <h6><strong>Opcion 2</strong></h6>
-          <span>sepa</span>
-        </div>
-      </label>
-    </div>
-    
-    
-    
-    <div 
-    	class="col-4 " 
-    	 >
-      <input type="radio" id="checks3" name="gps" class="visually-hidden " >
-      <label class="  l-h3  l-h31 pt-1 pb-1 cuadro " for="checks3">
-        <h6><strong>Tu puta opcion</strong></h6>
-        <div onclick="
-			document.getElementById('checks3').checked = true; ">
-           <!-- <label for="toggle">Toggle</label>
-            <input type="checkbox" id="toggle" class="visually-hidden">
-            <div class="control-me"></div> -->
-            
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>CheckboxCase</title>
+  <meta charset="UTF-8">
+  <meta name="title" content="Título de la WEB">
+  <meta name="description" content="Descripción de la WEB">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/Checkboxcase.css" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <h1>CheckboxCase</h1>
+  </header>
+  <div class="container    ">
+    <div class="row border rounded">
+      <div class="col-12  mb-2  ">
+        <strong>Opciónes</strong>:
+      </div>
+      <div class="col-4 ">
+        <input type="radio" id="checks1" name="gps" class="visually-hidden ">
+        <label class="  l-h1  " for="checks1">
+          <div class="   pt-1 pb-1 cuadro">
+            <h6><strong>Opción 1</strong></h6>
+            <span>SI</span>
+          </div>
+        </label>
+      </div>
+      <div class="col-4 ">
+        <input type="radio" id="checks2" name="gps" class="visually-hidden ">
+        <label class="  l-h2  " for="checks2">
+          <div class="   pt-1 pb-1 cuadro">
+            <h6><strong>Opción 2</strong></h6>
+            <span>sepa</span>
+          </div>
+        </label>
+      </div>
+      <div class="col-4 ">
+        <input type="radio" id="checks3" name="gps" class="visually-hidden ">
+        <label class="  l-h3  l-h31 pt-1 pb-1 cuadro " for="checks3">
+          <h6><strong>Tu puta Opción</strong></h6>
+          <div onclick="document.getElementById('checks3').checked = true; ">
             <span class="switch switch-sm">
               <label for="switch-sm">No &nbsp;</label>
               <input type="checkbox" class="switch" id="switch-sm">
               <label for="switch-sm">Si</label>
-              </span>
-            
-            
-        </div>
-      </label>
+            </span>
+          </div>
+        </label>
+      </div>
     </div>
   </div>
-</div>
+</body>
+</html>
